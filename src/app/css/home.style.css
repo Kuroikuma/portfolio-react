@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .HomeContainer {
   height: 100vh;
   min-width: 98.7vw;
@@ -31,7 +33,7 @@
   align-items: flex-start;
 }
 .infoContent h1 {
-  font-family: Montserrat;
+    font-family: Raleway;
   font-size: 54px;
   background-image: linear-gradient(
     258deg,

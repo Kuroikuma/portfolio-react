@@ -5,7 +5,7 @@ export const Info = () => {
     <div className="infoContainer">
       <Contact />
       <article className="infoContent">
-        <h1>Hi, I’am Ulisse</h1>
+        <h1 style={{fontFamily:"Roboto"}}>Hi, I’am Ulisse</h1>
         <h3>FullStack in JavaScript</h3>
         <p>
           Open to learn, self-taught, responsible for designing and developing
