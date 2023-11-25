@@ -1,0 +1,127 @@
+.HomeContainer {
+  height: 100vh;
+  min-width: 98.7vw;
+  background-color: #020c1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.homeContent {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoContainer {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoContent {
+  height: 55%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.infoContent h1 {
+  font-family: Montserrat;
+  font-size: 54px;
+  background-image: linear-gradient(
+    258deg,
+    rgba(204, 100, 35, 1) 31%,
+    rgba(249, 105, 14, 1) 48%,
+    rgba(59, 63, 86, 1) 59%,
+    rgba(68, 71, 87, 1) 65%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.infoContent h3 {
+  font-family: Inter;
+  font-size: 24px;
+  color: #f9690e;
+}
+.infoContent p {
+  font-family: Inter;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.HomeContainer__Info__Contact {
+  height: 28%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeProfile {
+  height: 80%;
+}
+.homeProfile img {
+  height: 100%;
+}
+.title {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 62px;
+  text-align: center;
+  color: #ffffff;
+  background-image: linear-gradient(
+    258deg,
+    rgba(250, 210, 1, 1) 31%,
+    rgba(204, 177, 37, 1) 48%,
+    rgba(115, 102, 167, 1) 59%,
+    rgba(118, 104, 175, 1) 65%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 375px) {
+  .HomeContainer {
+    justify-content: center;
+  }
+  .homeContent {
+    width: 90%;
+    height: 90%;
+    flex-direction: column-reverse;
+  }
+  .infoContainer {
+    height: 45%;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .infoContent {
+    height: 90%;
+  }
+  .infoContent h1 {
+    font-size: 34px;
+  }
+
+  .HomeContainer__Info__Contact {
+    height: 50%;
+    justify-content: space-evenly;
+  }
+
+  .homeProfile {
+    height: 50%;
+  }
+}
+@media screen and (max-height: 425px) {
+}
